@@ -25,5 +25,5 @@ urlpatterns = [
     path('saludar/', views.saludo),
     path('2do_saludo/', views.segunda_vista),
     path('nombre/<nombre>/<apellido>', views.nombre),
-    #path('nombre/<nombre>/<apellido>', views.apellido),
+    path('probando_template', views.probando_template),
 ]
