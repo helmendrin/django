@@ -24,4 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludar/', views.saludo),
     path('2do_saludo/', views.segunda_vista),
+    path('nombre/<nombre>/<apellido>', views.nombre),
+    #path('nombre/<nombre>/<apellido>', views.apellido),
 ]
